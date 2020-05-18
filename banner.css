@@ -1,0 +1,119 @@
+.banner{
+    width: 100%;
+    height: 550px;
+    background-color: #121313;
+    background-image: url(banner1.jpg);
+    background-position: center bottom;
+/*    background-size: 70%;*/
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 55px;
+}
+.banner h1{
+    color: #fff;
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.banner h2{
+    color: #fff;
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 400;
+    letter-spacing: .009em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 6px;
+}
+.banner p{
+    color: rgb(119, 119, 119);
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+.banner .link a{
+    color: #2997ff;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-decoration: none;
+}
+.banner .link a:nth-child(3){
+    margin-left: 26px;
+}
+.banner .link span{
+    color: #2997ff;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-decoration: none;
+}
+ .banner .link a:hover{
+    text-decoration: underline;
+}
+ .next{
+     height: 550px;
+     margin:15px 0 15px;
+     background-image: url(Ipadpro.jpg);
+     background-color: rgb(250,250,250);
+     background-position: 50% 80%;
+ }
+ .next h1,
+ .next h2{
+     color: rgb(0,0,0);
+ }
+.next h2{
+    margin-bottom: 20px;
+}
+.next .link a{
+    color: #2b5ed9
+}
+.row-banner{
+    margin: 0 15px 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap:0 15px;
+    place-content: space-evenly;
+}
+.row-banner .next{
+    margin: 0;
+}
+.row-banner .left{
+    background-image: url(tile.jpg);
+    background-size: 1100px;
+}
+.row-banner .left h2{
+    font-size: 36px;
+    font-weight: bold;
+}
+.row-banner .right{
+    background-color: #000;
+    background-image: url(wwdc.jpg);
+    background-position:center bottom;
+    background-size: 600px;
+}
+.row-banner .right img{
+    width: 300px;
+}
+.row-banner .right h2{
+    color: #fff;
+    font-size: 20px;
+}
+.row-banner .right .link a{
+    color: #2997ff;
+}
+.row-banner  .link a{
+    font-size: 16px;
+}
+
+
+
+
